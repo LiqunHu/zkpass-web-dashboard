@@ -1,10 +1,11 @@
 /* Components */
-import { Counter } from './components/Counter/Counter'
+import Task from '@/components/Task'
 
 export default function IndexPage() {
-  return <Counter />
+  return <Task />
 }
 
 export const metadata = {
-  title: 'Redux Toolkit',
+  title: 'zkPass dashboard',
+  description: 'zkPass dashboard'
 }
